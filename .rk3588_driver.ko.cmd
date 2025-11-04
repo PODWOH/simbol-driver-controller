@@ -1,0 +1,1 @@
+cmd_/home/podwoh/simbol-driver-controller/rk3588_driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack   --build-id  -T ./scripts/module-common.lds -o /home/podwoh/simbol-driver-controller/rk3588_driver.ko /home/podwoh/simbol-driver-controller/rk3588_driver.o /home/podwoh/simbol-driver-controller/rk3588_driver.mod.o;  true

@@ -25,3 +25,17 @@
    4. Rockchip RK3588 Datasheet;
    5. Rockchip RK3588 TRM Part 1;
    6. BananaPi BPI-M7. Schematic.
+
+
+
+to start work print 
+- make
+- sudo insmod rk3588_driver.ko
+-sudo ./test[1-6]
+
+
+if you want to check module:
+- ls -la /dev/rk3588_gpio_dev
+
+to close:
+sudo rmod rk3588_driver
